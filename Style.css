@@ -1,0 +1,39 @@
+ body{
+    font-family: Arial, sans-serif;
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 44%, rgba(237, 221, 83, 1) 100%);   
+ }
+
+ .container{
+    background: linear-gradient(90deg, rgba(162, 92, 209, 1) 0%, rgba(204, 33, 33, 1) 15%, rgba(230, 151, 41, 1) 92%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:10px 20px 25px rgba(0, 0, 0, 0.8) ;
+ }
+
+ h2{
+    color: white;
+ }
+ input, select, button{
+    padding: 8px;
+    margin: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+ }
+
+ button{
+   background-color: #4caf50;
+   color: white;
+   border: none;
+   cursor: pointer;
+ }
+
+ button:hover{
+   background-color: rgb(25, 232, 17);
+
+ }
